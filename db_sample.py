@@ -3,9 +3,14 @@ from pymongo import MongoClient
 def get_db():
 
     #connecting to the MongoDB Compass server
-    client = MongoClient("mongodb://localhost:27017/")
-    db = client["Hostel_Attendance"] #Database for all hostel related data
-    attendance_collection = db["Attendance_records"] #collection to store attendance records
+    try:
+        client = MongoClient("mongodb://localhost:27017/")
+        db = client["Hostel_Attendance"] #Database for all hostel related data
+        attendance_collection = db["Attendance_records"]  #collection to store attendance records
+    except Exception as e:  #to prevent crash if mongo db isn't running
+        print("MongoDB Connection Error:", e)
+        exit()
+
 
     return attendance_collection
 
