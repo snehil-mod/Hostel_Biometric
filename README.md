@@ -159,7 +159,7 @@ The MIT License is a permissive license that is short and to the point. It lets 
 ## 📞 Contact
 
 Snehil Singh - snehil.singh5151@gmail.com
-Project Link: [https://github.com/yourusername/Hostel_Biometric](https://github.com/snehil-mod/Hostel_Biometric)
+Project Link: [https://github.com/snehil-mod/Hostel_Biometric](https://github.com/snehil-mod/Hostel_Biometric)
 
 ## 🙏 Acknowledgements
 
